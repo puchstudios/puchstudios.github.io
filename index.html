@@ -1,0 +1,53 @@
+---
+layout: default
+---
+
+<section class="section section-equipment">
+  <h2 class="section-title">Utrustning</h2>
+
+  <ul class="module">
+    {% for item in site.data.equipment %}
+      <li class="module-item">{{ item.title }}</li>
+    {% endfor %}
+  </ul>
+
+</section>
+
+<section class="section section-prices">
+  <h2 class="section-title">Priser</h2>
+
+  <table class="module">
+    <thead class="visuallyhidden">
+      <tr>
+        <th>Paket</th>
+        <th>Beskrivning</th>
+        <th>Pris</th>
+      </tr>
+    </thead>
+    <tbody>
+
+      {% for item in site.data.prices %}
+        <tr>
+          <td class="module-item">{{ item.title }}</td>
+          <td class="module-item">{{ item.contents }}</td>
+          <td class="module-item">{{ item.price }}</td>
+        </tr>
+      {% endfor %}
+
+    </tbody>
+  </table>
+
+</section>
+
+<section class="section section-people">
+  <h2 class="section-title visuallyhidden">Personer</h2>
+
+  {% for item in site.data.people %}
+    <div class="module">
+      <h3 class="module-item">{{ item.name }}</h3>
+      <div class="module-item">{{ item.role }}</div>
+      <div class="module-item">{{ item.phone }}</div>
+    </div>
+  {% endfor %}
+
+</section>

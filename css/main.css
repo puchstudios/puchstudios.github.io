@@ -1,0 +1,83 @@
+@font-face {
+  font-family: "webfont-regular";
+  src: url("../fonts/webfont-regular.eot");
+  src: url("../fonts/webfont-regular.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/webfont-regular.woff") format("woff"),
+       url("../fonts/webfont-regular.ttf") format("truetype"),
+       url("../fonts/webfont-regular.svg#webfont-regular") format("svg");
+}
+
+html {
+  color: black;
+  font-family: "webfont-regular", sans-serif;
+  text-align: center;
+  letter-spacing: .077em;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+h1, h2, h3 {
+  font-weight: normal;
+  font-style: normal;
+  text-transform: uppercase;
+  letter-spacing: .33em;
+}
+
+a {
+  color: black;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+  list-style: none;
+}
+
+table {
+  text-align: left;
+}
+
+.site-title {
+  margin: 1.5em 2.5em 2.5em;
+}
+
+.site-description {
+  font-size: 150%;
+}
+
+.section {
+  padding: 1em 5em;
+}
+
+.section-header {
+  margin-bottom: 5em;
+  padding: 5em;
+  color: white;
+  background-image: url("../images/studio.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.section-footer {
+  margin-bottom: 5em;
+}
+
+.module {
+  margin: 2.5em auto;
+}
+
+.module-item {
+  padding: .5em;
+}
+
+.visuallyhidden {
+  display: none;
+}

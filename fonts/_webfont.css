@@ -1,0 +1,26 @@
+@font-face {
+  font-family: 'webfont-regular';
+  src: url('../fonts/webfont-regular.eot');
+  src: url('../fonts/webfont-regular.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/webfont-regular.woff') format('woff'),
+       url('../fonts/webfont-regular.ttf') format('truetype'),
+       url('../fonts/webfont-regular.svg#webfont-regular') format('svg');
+}
+
+@font-face {
+  font-family: 'webfont-medium';
+  src: url('../fonts/webfont-medium.eot');
+  src: url('../fonts/webfont-medium.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/webfont-medium.woff') format('woff'),
+       url('../fonts/webfont-medium.ttf') format('truetype'),
+       url('../fonts/webfont-medium.svg#webfont-medium') format('svg');
+}
+
+@font-face {
+  font-family: 'webfont-bold';
+  src: url('../fonts/webfont-bold.eot');
+  src: url('../fonts/webfont-bold.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/webfont-bold.woff') format('woff'),
+       url('../fonts/webfont-bold.ttf') format('truetype'),
+       url('../fonts/webfont-bold.svg#webfont-bold') format('svg');
+}
